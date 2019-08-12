@@ -1,0 +1,233 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url(../assets/blue-wave.jpg);
+	background-attachment: cover;
+	background-position: 0 400px;
+	font-family: 'rubiklight';
+}
+
+/* ========= NAVBAR ========= */
+@media (min-width: 992px) {
+	nav {
+		padding: 0 200px !important;
+		height: 70px;
+		/* 60px untuk pacuan height */
+		padding-bottom: 10px !important;
+		background: linear-gradient(to bottom, rgba(242, 246, 250, 1) 80%,
+			rgba(75, 135, 180, 0) 95%);
+	}
+
+	nav li {
+		letter-spacing: 2px;
+	}
+}
+
+.jumbotron {
+	min-height: 700px;
+	background-image: linear-gradient(to top left,
+		rgba(3, 57, 108, .5),
+		rgba(173, 203, 227, .7)),
+		url(../assets/blue-monitor.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0 !important;
+	clip-path: polygon(0px 0px, 100% 0px, 100% calc(100% - 80px), 0 100%);
+}
+
+.container {
+	padding: 100px;
+}
+
+.photo-pro {
+	margin-bottom: 50px;
+	height: 250px;
+	width: 250px;
+	overflow: hidden;
+	border: 3px solid rgba(23, 48, 161, 0.664);
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .7);
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .7);
+}
+
+.photo-pro img {
+	margin-left: -30px;
+	width: 370px;
+	height: 250px;
+}
+
+.jumbotron h1,
+h5 {
+	font-family: 'rubikregular';
+	display: block;
+	color: #f1f1f1;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.jumbotron h5 {
+	font-family: 'rubiklight';
+	letter-spacing: 2px;
+	text-transform: none;
+}
+
+/* ============== ABOUT ME ============== */
+
+#about-me {
+	margin-top: -80px;
+	background-image: linear-gradient(to bottom,
+		rgb(255, 255, 255, .0) 50%,
+		rgba(255, 255, 255, .9) 100%);
+}
+
+#tittle h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #2a4d69;
+	margin: 30px 0;
+}
+
+#tittle h1::after,
+#portfolio h1::after {
+	content: "";
+	border: 2px solid rgba(100, 100, 100, .7);
+	display: block;
+	border-radius: 20px;
+	width: 80px;
+	margin: 10px auto 40px;
+}
+
+.skill-box {
+	margin-top: 20px;
+	/* border-radius: 10px; */
+}
+
+.icon {
+	border: 2px solid rgba(160, 191, 218, .5);
+	border-radius: 50%;
+	overflow: hidden;
+	height: 85px;
+	width: 85px;
+	margin: 15px auto;
+}
+
+.icon img {
+	overflow: hidden;
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+#networking {
+	margin: 15px auto;
+}
+
+#hard-skill,
+#collab {
+	margin: 17px auto;
+}
+
+.skill-box h3 {
+	text-align: center;
+	color: #4b86b4;
+}
+
+.quote {
+	margin: 50px;
+	text-align: center;
+	color: rgba(73, 73, 73, 0.7);
+}
+
+.quote h1::before {
+	content: open-quote;
+}
+
+.quote h1::after {
+	content: close-quote;
+}
+
+#portfolio {
+	min-height: 700px;
+	background-image: linear-gradient(to bottom,
+		rgb(255, 255, 255, .9) 0%,
+		rgba(255, 255, 255, 1) 20%);
+}
+
+#portfolio h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #2a4d69;
+}
+
+#portfolio .container {
+	padding: 50px;
+}
+
+.pic-port {
+	padding: 15px 10px;
+}
+
+.pic-case {
+	border: 5px solid rgba(70, 70, 70, .3);
+	height: 250px;
+	overflow: hidden;
+}
+
+.pic-case img {
+	display: block;
+	margin: 50px auto;
+	width: 100px;
+	height: 100px;
+}
+
+/* ========== Contact ========== */
+#contact {
+	min-height: 500px;
+	background-image: linear-gradient(to bottom,
+		rgb(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, .1) 80%);
+}
+
+#contact h1 {
+	font-size: 71px;
+	margin-bottom: 30px;
+	font-family: 'rubikregular';
+	color: rgba(10, 10, 10, .7);
+}
+
+#contact span {
+	color: rgba(73, 73, 73, .7);
+	font-size: 29px;
+	margin-bottom: 10px;
+	display: block;
+	font-family: 'rubiklight';
+}
+
+footer {
+	height: 85px;
+	padding: 20px;
+	background: rgba(10, 10, 10, .6);
+}
+
+footer p {
+	color: #ececec;
+	text-align: center;
+	margin: 0;
+}
+
+footer a {
+	font-family: 'rubikmedium';
+	color: #b3cde0;
+	letter-spacing: 1px;
+}
+
+footer a:hover {
+	color: #e63030;
+	text-decoration: none;
+}
